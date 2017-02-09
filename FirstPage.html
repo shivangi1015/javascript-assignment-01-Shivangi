@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+var userArray= new Array("Rahul","shivangi");
+ var passArray= new Array("123","shiv");
+var ulen= userArray.length;
+ var plen= passArray.length;
+function onValidate()
+{
+  
+  var user = document.getElementById("un").value;
+  var pass = document.getElementById("pw").value;
+  
+  for(i = 0,j=0; i<ulen,j< plen;i++,j++)
+  {
+      if(user == userArray[i] && pass == passArray[j])
+      window.location.href = "MyTemplate.html";
+      if(i == userArray.length)
+      window.alert("Username and password is incorrect");
+}
+  
+}
+
+</script>
+</head>
+<body style="background-image: url(vector-yellow-abstract-background.jpg);">
+<div style="color:white; font-family: Helvetica; font-size: 50px; margin-left:50px; margin-top:50px;">Please login to visit website</div> 
+<div style="margin-to:100px">
+<form>
+  
+  <input type="text" id ="un" name="userid" placeholder="UserName" >
+  <input type="password" id="pw" name="pswd" placeholder="Password">
+  <input type="button" value="Login" onClick="onValidate()">
+</form>
+</div>
+
+
+
+</body>
+</html>
+

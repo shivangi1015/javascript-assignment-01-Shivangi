@@ -1,0 +1,108 @@
+.div1{
+	
+margin-left:300px;
+
+margin-top:20px;
+
+padding: 30px 10px 10px 30px;
+
+//background-color:cyan;
+
+color:white;
+
+width:650px;
+
+height:50px;
+
+text-align:center;
+
+font-family:century gothic;
+
+font-size: 30px;
+
+
+}
+
+.div2{
+
+margin-top:20px;
+
+margin-left:390px;
+
+
+padding: 15px 10px 5px 20px;
+
+
+
+color:white;
+
+width:500px;
+
+height:50px;
+
+align:center;
+
+font-family: century gothic;
+font-size: 20px;
+
+}
+
+
+.div3{
+	
+
+margin-left:400px;
+
+
+padding: 10px 10px 10px 10px;
+
+width:600px;
+
+height:50px;
+
+align:center;
+
+font-family: Helvetica;
+
+font-size: 50px;
+
+}
+
+
+
+.button
+{
+
+background-color:#55b2b9;
+margin-left:580px;
+margin-top:30px;
+margin-bottom:50px;
+
+border:none;
+
+color:white;
+
+padding:20px 32px;
+
+text-align:center;
+
+font-size:16px;
+
+cursor:pointer;
+
+}
+
+.background
+{
+background-image: url(vector-yellow-abstract-background.jpg);
+background-repeat:repeat -x;
+padding-top:50px;
+}
+
+.timer1{
+float:right;color:black;
+margin-top:0px;
+
+}
+
+
